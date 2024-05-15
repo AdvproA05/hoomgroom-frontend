@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_A5_HOOMGROOM }}
           channelId: live
           projectId: a5-hoomgroom
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
